@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Itatim Ágora - Notícias em Tempo Real</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header>
+      <nav>
+        <h1>Itatim Ágora</h1>
+        <ul>
+          <li><a href="#latest-news">Últimas Notícias</a></li>
+          <li><a href="#categories">Categorias</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Seção de Últimas Notícias -->
+    <section id="latest-news">
+      <h2>Últimas Notícias</h2>
+      <div class="news-container">
+        <article class="news-item">
+          <img src="https://via.placeholder.com/400x200" alt="Notícia 1" />
+          <h3>Notícia Destaque 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            volutpat, odio vitae...
+          </p>
+          <a href="#">Leia mais</a>
+        </article>
+
+        <article class="news-item">
+          <img src="https://via.placeholder.com/400x200" alt="Notícia 2" />
+          <h3>Notícia Destaque 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            volutpat, odio vitae...
+          </p>
+          <a href="#">Leia mais</a>
+        </article>
+
+        <article class="news-item">
+          <img src="https://via.placeholder.com/400x200" alt="Notícia 3" />
+          <h3>Notícia Destaque 3</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
+            volutpat, odio vitae...
+          </p>
+          <a href="#">Leia mais</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção de Categorias -->
+    <section id="categories">
+      <h2>Categorias</h2>
+      <div class="categories-container">
+        <div class="category-item">
+          <h3>Política</h3>
+          <ul>
+            <li><a href="#">Eleições municipais de 2024</a></li>
+            <li><a href="#">Novas leis aprovadas na câmara</a></li>
+            <li><a href="#">Discussões no senado</a></li>
+          </ul>
+        </div>
+
+        <div class="category-item">
+          <h3>Economia</h3>
+          <ul>
+            <li><a href="#">Economia local de Itatim</a></li>
+            <li><a href="#">Novidades no mercado financeiro</a></li>
+            <li><a href="#">Análise do PIB nacional</a></li>
+          </ul>
+        </div>
+
+        <div class="category-item">
+          <h3>Esportes</h3>
+          <ul>
+            <li><a href="#">Campeonato de Futebol Regional</a></li>
+            <li><a href="#">Atletas de Itatim ganham destaque</a></li>
+            <li><a href="#">Esportes amadores e profissionais</a></li>
+          </ul>
+        </div>
+
+        <div class="category-item">
+          <h3>Cultura</h3>
+          <ul>
+            <li><a href="#">Eventos culturais em Itatim</a></li>
+            <li><a href="#">Artistas locais e regionais</a></li>
+            <li><a href="#">Novidades no cinema e teatro</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contact">
+      <h2>Contato e Contribuições</h2>
+      <p>
+        Você tem uma notícia para compartilhar ou quer colaborar com o Itatim
+        Agora? Entre em contato conosco!
+      </p>
+      <form id="contact-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" placeholder="Seu nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Seu email" required />
+
+        <label for="message">Mensagem:</label>
+        <textarea
+          id="message"
+          placeholder="Escreva sua notícia ou mensagem"
+          required
+        ></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+      <p>
+        &copy; 2024 Itatim Agora - Todas as notícias da sua cidade em um só
+        lugar.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+<section id="categories">
+  <h2>Categorias</h2>
+  <div class="categories-container">
+    <!-- Categoria Política -->
+    <div class="category-item">
+      <h3>Política</h3>
+      <ul>
+        <li><a href="#">Eleições municipais de 2024</a></li>
+        <li><a href="#">Novas leis aprovadas</a></li>
+      </ul>
+    </div>
+
+    <!-- Novas Categorias -->
+    <div class="category-item">
+      <h3>Entretenimento</h3>
+      <ul>
+        <li><a href="#">Lançamentos no cinema</a></li>
+        <li><a href="#">Novos álbuns musicais</a></li>
+      </ul>
+    </div>
+
+    <div class="category-item">
+      <h3>Tecnologia</h3>
+      <ul>
+        <li><a href="#">Novidades em smartphones</a></li>
+        <li><a href="#">Tendências em IA</a></li>
+      </ul>
+    </div>
+
+    <div class="category-item">
+      <h3>Opinião</h3>
+      <ul>
+        <li><a href="#">Colunistas locais</a></li>
+        <li><a href="#">Debates políticos</a></li>
+      </ul>
+    </div>
+
+    <!-- Notícia Popular -->
+    <div id="popular-news">
+      <h2>Notícias Populares</h2>
+      <article>
+        <h3><a href="#">Notícia mais comentada do dia</a></h3>
+        <p>Resumo breve da notícia mais popular...</p>
+      </article>
+    </div>
+  </div>
+</section>
+<header>
+  <nav>
+    <h1>Itatim Agora</h1>
+    <ul>
+      <li><a href="#latest-news">Últimas Notícias</a></li>
+      <li><a href="#categories">Categorias</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Buscar notícias..." />
+      <button type="submit">Buscar</button>
+    </form>
+  </nav>
+</header>
+<section id="admin-panel">
+  <h2>Painel de Administração</h2>
+  <form id="add-news-form">
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" required />
+
+    <label for="categoria">Categoria:</label>
+    <select id="categoria">
+      <option value="Política">Política</option>
+      <option value="Economia">Economia</option>
+      <option value="Esportes">Esportes</option>
+      <option value="Cultura">Cultura</option>
+    </select>
+
+    <label for="conteudo">Conteúdo:</label>
+    <textarea id="conteudo" required></textarea>
+
+    <label for="imagem_url">URL da Imagem:</label>
+    <input type="text" id="imagem_url" required />
+
+    <button type="submit">Adicionar Notícia</button>
+  </form>
+</section>
